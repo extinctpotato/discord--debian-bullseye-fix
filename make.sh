@@ -2,7 +2,7 @@
 
 set -x
 
-discord_version="0.0.16"
+discord_version="0.0.17"
 old_deb="1.deb"
 new_deb="2.deb"
 unpack_location="$old_deb-unpack"

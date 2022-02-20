@@ -1,11 +1,11 @@
 Package: discord
-Version: 0.0.16
+Version: 0.0.17
 Depends: libc6, libasound2, libatomic1, libgconf-2-4, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6, libayatana-appindicator3-1, libc++1
 Section: net
 Priority: optional
 Homepage: https://discord.com
 Architecture: amd64
-Installed-Size: 184052
+Installed-Size: 184104
 Maintainer: Discord Maintainer Team <native-team@discord.com>
 Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
