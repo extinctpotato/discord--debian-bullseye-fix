@@ -1,0 +1,12 @@
+name: Make DEB
+on: push
+
+jobs:
+  build_deb:
+    steps:
+      - uses: actions/checkout@v2
+      - run: "./make.sh"
+      - uses: actions/upload-artifact@v2
+        with:
+          name: "packages"
+          path: "**.deb" 
